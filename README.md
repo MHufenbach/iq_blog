@@ -52,7 +52,9 @@ Install module as usual:
 
 Add patch for ajax views.
 
-    composer patch-add drupal/ui_patterns "Support AJAX Views / Fix live preview detection" "https://patch-diff.githubusercontent.com/raw/nuvoleweb/ui_patterns/pull/269.diff"
+    composer patch-add drupal/ui_patternsp
+      + "Support AJAX Views / Fix live preview detection"
+      + "https://patch-diff.githubusercontent.com/raw/nuvoleweb/ui_patterns/pull/269.diff"
 
 
 Rebuild CSS:
@@ -61,7 +63,8 @@ Rebuild CSS:
 
 
 Follow installation instructions for entity browsers:
-https://github.com/iqual-ch/iq_entity_browsers/blob/8.x-1.x/README.md#iq_entity_browsers (skip step «Install the module using composer»)
+https://github.com/iqual-ch/iq_entity_browsers/blob/8.x-1.x/README.md#iq_entity_browsers
+(skip step «Install the module using composer»)
 
 
 ## Configuration
